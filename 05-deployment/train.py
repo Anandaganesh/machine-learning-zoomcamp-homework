@@ -75,8 +75,8 @@ def train_model(df):
 
 def save_model(filename, model):
     with open(filename, 'wb') as f_out:
-    pickle.dump(model, f_out)
-    print(f'model saved to {filename}')
+        pickle.dump(model, f_out)
+        print(f'model saved to {filename}')
 
 df = load_data()
 pipeline = train_model(df)
