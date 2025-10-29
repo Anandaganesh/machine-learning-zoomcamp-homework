@@ -1,7 +1,8 @@
 
 import requests
 
-url = 'http://localhost:9696/predict'
+#url = 'http://localhost:9696/predict'
+url = 'https://divine-voice-1087.fly.dev/predict'
 
 customer = {
     'gender': 'male',
